@@ -7,7 +7,7 @@
   "scripts": {
     "pretest": "jshint *.js ./tests/*.js",
     "test": "jenkins-mocha ./tests/*.js",
-    "posttest": "istanbul check-coverage --statements 100 --branches 100 --functions 100 --lines 100"
+    "posttest": "node_modules/jenkins-mocha/node_modules/.bin/istanbul check-coverage --statements 100 --branches 100 --functions 100 --lines 100"
   },
   "repository": {
     "type": "git",
