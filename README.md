@@ -7,10 +7,8 @@ By default it creates a new `Object`, then walks the `req.query` and adds the `k
 It will always use the `POST` version of the value if it is available. It will then add this new `Object` to the `req` as `normalized`. See the `configuration` section
 below for changing these values.
 
-[![npm Version][npm-badge]][npm]
-[![Build Status][travis-badge]][travis]
-[![Dependency Status][david-badge]][david]
-
+[![npm Version](https://img.shields.io/npm/v/express-normalized.svg?style=flat-square)](https://www.npmjs.org/package/express-normalized)
+[![Build Status](http://img.shields.io/travis/yahoo/express-normalized.svg?style=flat-square)](https://travis-ci.org/yahoo/express-normalized)
 
 usage
 -----
@@ -61,9 +59,3 @@ function(req, res) {
 }
 ```
 
-[npm]: https://www.npmjs.org/package/express-normalized
-[npm-badge]: https://img.shields.io/npm/v/express-normalized.svg?style=flat-square
-[travis]: https://travis-ci.org/yahoo/express-normalized
-[travis-badge]: http://img.shields.io/travis/yahoo/express-normalized.svg?style=flat-square
-[david]: https://david-dm.org/yahoo/express-normalized
-[david-badge]: https://img.shields.io/david/yahoo/express-normalized.svg?style=flat-square
